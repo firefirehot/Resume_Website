@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import {RightImageBar, LeftImageBar} from './imageBars';
+import {NavBar} from './navBar'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <LeftImageBar />
     <RightImageBar />
+    <NavBar />
     <App />
   </React.StrictMode>
 );
