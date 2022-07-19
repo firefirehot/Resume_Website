@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import {RightImageBar, LeftImageBar} from './imageBars';
 import {NavBar} from './navBar'
+import {Resume} from './resume'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +13,7 @@ root.render(
     <LeftImageBar />
     <RightImageBar />
     <NavBar />
-    <App />
+    <Resume />
   </React.StrictMode>
 );
 

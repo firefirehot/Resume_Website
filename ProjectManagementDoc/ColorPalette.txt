@@ -1,0 +1,6 @@
+Colors from www.w3schools.com/colors/color_palettes.asp
+
+#f0f0f0 white/grey
+#c5d5c5 soft green
+#9fa9a3 darker grey
+#e3e0cc light brown

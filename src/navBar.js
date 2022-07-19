@@ -2,14 +2,14 @@ import './navBar.css';
 
 export function NavBar(){
     return(
-        <aside>
-        <ol>
-            <li><a href="/bio">Bio</a></li>
-            <li><a href="/contact">Contact</a></li>
-            <li><a href="/classes">Classes</a></li>
-            <li><a href="projects">Projects</a></li>
-        </ol>
-        </aside>
+        <nav role="navigation">
+            <ol>
+                <a href="/bio"><li>Bio</li></a>
+                <a href="/contact"><li>Contact</li></a>
+                <a href="/classes"><li>Classes</li></a>
+                <a href="/projects"><li>Projects</li></a>
+            </ol>
+        </nav>
 
     );
 }
