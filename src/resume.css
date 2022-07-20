@@ -1,7 +1,14 @@
 @import 'citeStyles.css';
 
 
-.resume {
+p {
     height: 50%;
     width: 100%;
+    margin: 0;
+   
+}
+
+
+.resume {
+    width:50%
 }
