@@ -7,9 +7,9 @@ export function Resume() {
 
 function ResumeBox() {
     return (
-        <article class="middleBlock">
+        <>
           <ResumeImage />
-        </article>
+        </>
       );
 }
 
@@ -17,7 +17,7 @@ function ResumeBox() {
 function ResumeImage() {
   return (
     <>
-      <p><img class="resume"  height="50%"src="./images/robert_wyatt.jpg" alt="Robert's resume"/></p>
+      <p><img class="resume" src="./images/robert_wyatt.jpg" alt="Robert's resume"/></p>
     </>
   );
 }

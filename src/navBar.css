@@ -1,21 +1,15 @@
 @import 'citeStyles.css';
 
-nav{
-    margin-right: auto;
-    margin-left: auto;
-}
 
 ul{
     list-style-type: none;
-    margin-right:auto;
-    margin-left: auto;
 }
 
 
 li {
     float: left;
     background-color: #c5d5c5;
-    margin-right: 30px;
+    margin-right: 50px;
     width: 20%;
     height: 30px;
     padding: 1px;
@@ -23,15 +17,15 @@ li {
     font-size: 20px;
 }
 
+.lastListItem{
+    margin-right: 0px;
+}
+
 a {
     font-weight: 800;
 }
 
-a:link{
-    color: rgb(36,36,36);
+a:hover{
+    color: #9ba79b;
 }
 
-a:visited{
-    color: rgb(36,36,36);
-
-}
