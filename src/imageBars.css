@@ -1,17 +1,20 @@
-#rightImageBar {
-    float: right;
-    width:"25%";
-    height: "100%";
-    margin: 20px;
+@import 'citeStyles.css';
+
+
+.sideBar {
+    width:25%;
+    height:100%;
+    margin-right: 0;
+    margin-left:0;
     border:0;
     padding:0;
 }
 
+
+#rightImageBar {
+    float: right;
+}
+
 #leftImageBar{
     float: left;
-    width:"25%";
-    height: "100%";
-    margin: 20px;
-    border:0;
-    padding:0;
 }

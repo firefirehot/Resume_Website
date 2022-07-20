@@ -1,12 +1,6 @@
-.pageText {
-    width: 40%;
-    margin:0;
-    border:0;
-    padding:0;
-    text-align:center;
-    display: inline-block;
-}
+@import 'citeStyles.css';
+
 
 .resume {
-    width:90%;
+    width:100%;
 }

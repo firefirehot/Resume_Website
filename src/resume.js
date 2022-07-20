@@ -7,7 +7,7 @@ export function Resume() {
 
 function ResumeBox() {
     return (
-        <article class="pageText">
+        <article class="middleBlock">
           <ResumeImage />
         </article>
       );
