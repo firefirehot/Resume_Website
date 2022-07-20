@@ -2,7 +2,7 @@ import './navBar.css';
 
 export function NavBar(){
     return(
-        <nav class="middleBlock" role="navigation">
+        <nav role="navigation">
             <ul>
                 <a href="/bio"><li>Bio</li></a>
                 <a href="/contact"><li>Contact</li></a>
