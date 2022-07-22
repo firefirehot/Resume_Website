@@ -1,4 +1,4 @@
-import './navBar.css';
+import './citeStyles.css';
 
 export function NavBar(){
     return(

@@ -1,4 +1,4 @@
-import './middleBlock.css';
+import './citeStyles';
 
 import {NavBar} from './navBar'
 import {Resume} from './resume'
