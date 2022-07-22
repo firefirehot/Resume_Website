@@ -10,13 +10,14 @@
 
 ul{
     list-style-type: none;
+    height:100%
 }
 
 
 li {
     float: left;
     background-color: #c5d5c5;
-    margin-right: 50px;
+    margin-right: calc(6% - 8px);
     width: 20%;
     height: 40px;
     padding: 1px;
@@ -27,6 +28,35 @@ li {
 
 .lastListItem{
     margin-right: 0px;
+}
+
+.wideContainer {
+    display: block;
+    height: 50px;
+    width: 100vw;
+}
+
+.centered {
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+}
+
+.midScreen {
+    position: relative;
+    left: 50%;
+}
+
+.midContainer {
+    position: absolute;
+    left:50%;
+    top:50% 
+}
+
+.imageWideBar{
+    width:1200px;
+    height:100%;
+    background-color:#9ba79b;
 }
 
 a {
