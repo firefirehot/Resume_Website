@@ -58,7 +58,7 @@ img.corner{
     margin-top: 50px;
     margin-left: calc(var(--content-width)/(-4));
     background-color: #e3e0cc;
-    border: 4px solid #9fa9a3;
+    border: 4px solid #afb9c3;
 }
 
 .midContainer {

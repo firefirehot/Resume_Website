@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 import {Landing} from './landing';
 import {Bio} from './bio';
+import {Contact} from './contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +16,7 @@ root.render(
 			<Routes>
 				<Route path="/" element={<Landing />} />
 				<Route path="/bio" element={<Bio />} />
+				<Route path="/contact" element={<Contact />} />
 			</Routes>
 	  </BrowserRouter>
 
