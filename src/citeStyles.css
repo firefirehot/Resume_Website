@@ -21,7 +21,7 @@ ul{
 }
 
 
-.nav {
+li.nav {
     float: left;
     background-color: #c5d5c5;
     margin-right: calc(6% - 6px);
@@ -32,9 +32,15 @@ ul{
     border: 5px solid #000000;
 }
 
-.lastListItem{
+li.lastListItem{
     margin-right: 0px;
     margin-left: 2px;
+}
+
+img.corner{
+    position:absolute;
+    left:0px;
+    top:50px;
 }
 
 .wideContainer {
@@ -43,20 +49,39 @@ ul{
     width: var(--content-width);
 }
 
+.topScreen {
+    position: absolute;
+    left:50%;
+    top:0;
+    height: 892px;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: calc(var(--content-width)/(-4));
+    background-color: #e3e0cc;
+    border: 4px solid #9fa9a3;
+}
+
 .midContainer {
     position: absolute;
     left:50%;
     top:50%;
     height: 240px;
-    width: 360px;
+    width: 440px;
     margin-top: -120px;
-    margin-left: -180px
+    margin-left: -220px;
+    text-align: center;
+    padding: 60px;
 }
 
 .imageWideBar{
     width: var(--content-width);
     height: calc(40px + 10px);
     background-color:#9ba79b;
+}
+
+.profileImage{
+    border: 5px solid #000000;
+    margin: 5px 5px;
 }
 
 a {
@@ -69,11 +94,18 @@ a:hover{
 
 h1 {
     font-size: 50px;
+    font-weight: 700;
+}
+
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
 }
 
 p {
-    font-size: 30px;
-
+    font-size:30px;
+    font-weight: 450;
 }
   
 
@@ -81,12 +113,40 @@ p {
     :root {
         --content-width: 600px;
     }
-    .nav {
+    li.nav {
         margin-right: calc(6% - 10px);
     }
 
-    .lastListItem{
+    li.lastListItem{
         margin-right: 0px;
+    }
+
+    .topScreen {
+        left:220px;
+        height: 446px;
+        width: 60%;
+        margin-top: 50px;
+        margin-left:0px;
+        border: 2px solid #9fa9a3;
+    }
+
+    h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    p {
+        font-size:15px;
+        font-weight: 500;
+    }
+
+    .midContainer {
+        padding: 90px 0;
     }
 
 }

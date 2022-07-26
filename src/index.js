@@ -4,7 +4,8 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import {MiddleBlock} from './middleBlock';
+import {Landing} from './landing';
+import {Bio} from './bio';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +13,8 @@ root.render(
 
   <BrowserRouter>
 			<Routes>
-				<Route path="/" element={<MiddleBlock />} />
+				<Route path="/" element={<Landing />} />
+				<Route path="/bio" element={<Bio />} />
 			</Routes>
 	  </BrowserRouter>
 
