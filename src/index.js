@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import {Landing} from './landing';
 import {Bio} from './bio';
 import {Contact} from './contact';
+import {Projects} from './projects';
+import {Classes} from './classes'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +19,8 @@ root.render(
 				<Route path="/" element={<Landing />} />
 				<Route path="/bio" element={<Bio />} />
 				<Route path="/contact" element={<Contact />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/classes" element={<Classes />} />
 			</Routes>
 	  </BrowserRouter>
 
